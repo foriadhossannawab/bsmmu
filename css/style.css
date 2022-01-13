@@ -1,0 +1,291 @@
+body {
+    font-family: Lato, sans-serif;
+}
+
+header {
+    background-color: #002147;
+    padding: 10px 0px;
+}
+
+.navbar-brand {
+    height: 15vh;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar-brand img {
+    width: 100%;
+    height: 100%;
+}
+
+.navbar-nav {}
+
+.nav-item {
+    text-transform: uppercase;
+}
+
+.nav-item:hover {
+    background-color: #ffffff8c;
+    transform: scale(1.2, 1);
+    max-width: 100%;
+    transition: 1.5s all ease-in-out;
+}
+
+.nav-link {
+    color: #ffffff;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    font-weight: 700;
+    transition: transform 1.0s;
+    margin: 0 auto;
+}
+
+.nav-item:hover .nav-link {
+    color: #1E3C5F;
+    font-size: 100%;
+    transition: 1.5s all ease-in-out;
+    transform: scale(1.1, 1);
+}
+
+.banner {}
+
+.about {
+    background-color: #F5F5F5;
+}
+
+.iner-section {
+    margin: 0 15px;
+}
+
+.about_content {
+    border-right: 1px dashed;
+    padding-right: 15px;
+}
+
+.about h1 {
+    color: #222;
+}
+
+.about p {}
+
+.about span {}
+
+.about_img {
+    height: 45vh;
+    width: 100%;
+    border-radius: 2px;
+}
+
+.about_img img {
+    height: 100%;
+    width: 98%;
+}
+
+.notice {
+    background-color: #f2f2f29e;
+    min-height: 100vh;
+}
+
+.notice h2 {
+    text-transform: capitalize;
+    color: #222;
+}
+
+.notice h4 {
+    text-transform: capitalize;
+    color: #ffffff;
+    background-color: #225187;
+    padding: 8px 0;
+    margin: 0 1px;
+}
+
+.notice h4:hover {
+    color: #1E3C5F;
+    background-color: #ffffff;
+    transition: 1s all ease-in-out;
+}
+
+.item {
+    width: 100%;
+    height: 15vh;
+    margin: 2% 0;
+}
+
+.item_content {
+    height: 100%;
+    position: relative;
+    background: #F5DEB3;
+    padding: 14px 0;
+}
+
+.calendar {
+    width: 12%;
+    height: 11vh;
+    border: 2px solid #002147;
+    border-radius: 8px;
+    overflow: hidden;
+    position: absolute;
+    top: 14%;
+    left: 7%;
+    text-transform: capitalize;
+}
+
+.day {
+    height: 60%;
+    width: 100%;
+    color: #806c6c;
+    background: #fff;
+}
+
+.date {
+    height: 40%;
+    width: 100%;
+    color: #002147;
+    background: #806c6c;
+}
+
+.item_content h5 {
+    color: #222;
+    width: 66%;
+    text-transform: capitalize;
+    position: absolute;
+    top: 25%;
+    left: 26%;
+}
+
+.activities {
+    background: #F9F0BB;
+    padding: 80px 0;
+}
+
+.activities h2 {
+    text-transform: uppercase;
+    margin-bottom: 1%;
+}
+
+.act_content {
+    width: 80%;
+    min-height: 100%;
+    position: relative;
+    padding: 10px;
+    transition: transform 1.0s;
+    margin: 0 auto;
+}
+
+.act_content:hover {
+    transform: scale(1.2, 1);
+    transition: 1s all ease-in-out;
+}
+
+.act_content h6 {
+    position: absolute;
+    text-transform: capitalize;
+    top: 88%;
+    left: 5%;
+    font-size: 25px;
+    font-weight: 700;
+    background-color: #F2F2F2;
+    color: #1DA8DF;
+}
+
+.events {
+    background-color: #225187;
+    position: relative;
+    height: 18vh;
+}
+
+.events h2 {
+    text-transform: uppercase;
+    color: #ffffff;
+    font-size: 36px;
+    position: absolute;
+    top: 30%;
+    left: 2%;
+}
+
+.btn-event {
+    color: #fff;
+    text-transform: capitalize;
+    text-decoration: none;
+    border: 1px solid #ffffff;
+    font-size: 25px;
+    padding: 6px 40px;
+    position: absolute;
+    top: 25%;
+    left: 80%;
+}
+
+.btn-event:hover {
+    color: #fff;
+    text-shadow: none;
+    background: #3277AE;
+}
+
+footer {
+    background-color: #002147;
+    color: #ffffff;
+}
+
+.links {
+    width: 90%;
+    border-right: 1px solid #ffffff;
+}
+
+.f_links {
+    width: 90%;
+}
+
+.links h2 {
+    text-transform: capitalize;
+}
+
+.links ul,
+.f_links ul {
+    list-style: none;
+}
+
+.links ul li {}
+
+.links ul li a,
+.f_links ul li a {
+    text-decoration: none;
+    color: #ffffffa8;
+    text-transform: capitalize;
+    transition: .5s all ease-in-out;
+}
+
+.btn-footer {
+    background: #225187;
+    padding: 10px 20px;
+    margin-bottom: 5px;
+    color: #fff;
+    border-radius: 3px;
+    width: 100%;
+    display: block;
+    border: 1px solid #6dad7b;
+    text-align: left;
+    font-size: 17px;
+    text-shadow: 0 0 2px #000;
+    transition: .4s;
+}
+
+.links ul li a:hover {
+    color: #fff;
+    text-shadow: none;
+    background-color: #3277ae52;
+    transition: .5s all ease-in-out;
+}
+
+.btn-footer:hover {
+    color: #fff;
+    text-shadow: none;
+    background: #3277AE;
+}
+
+footer span {
+    display: block;
+    width: 100%;
+    height: 2px;
+    background-color: #ffffff;
+}
